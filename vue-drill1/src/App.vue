@@ -6,7 +6,7 @@
       <JobForm :addJob='addJob'/>
     </main>
     <PageFooter></PageFooter>
-</div>
+</div> 
 </template>
 
 <script>

@@ -2,7 +2,7 @@
   <div id='app'>
     <Header />
     <main>
-      <JobDetails :jobDetails='jobApi'/>
+      <JobDetails :jobDetails='jobApi'/> 
       <InputForm :getText='getText'/>
       <button id='preview-toggle' @click='togglePreview = !togglePreview'>Show Preview</button>
       <Preview :text='appText' :class='{hidden : togglePreview}'/>
