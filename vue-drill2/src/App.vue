@@ -1,10 +1,10 @@
 <template>
-  <div id="app">
+  <div id='app'>
     <TheHeader></TheHeader>
     <main>
       <h1>Profiles</h1>
         <ul id='profiles'>
-          <ProfileCards v-for="(dino, index) in dinos" :key='index' :dino='dino'></ProfileCards>
+          <ProfileCards v-for='(dino, index) in dinos' :key='index' :dino='dino'></ProfileCards>
         </ul>
     </main>
     <TheFooter></TheFooter>
@@ -52,7 +52,6 @@ html {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* text-align: center; */
   color: #2c3e50;
   margin-top: 60px;
   margin: 0 30px 0 30px;

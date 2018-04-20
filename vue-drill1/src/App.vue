@@ -2,8 +2,8 @@
   <div id='app'>
     <PageTitle></PageTitle>
     <main>
-      <JobList id='job-listings' :jobs="jobs"></JobList>
-      <JobForm :addJob="addJob"/>
+      <JobList id='job-listings' :jobs='jobs'></JobList>
+      <JobForm :addJob='addJob'/>
     </main>
     <PageFooter></PageFooter>
 </div>

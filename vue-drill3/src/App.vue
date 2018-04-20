@@ -1,10 +1,10 @@
 <template>
-  <div id="app">
+  <div id='app'>
     <Header />
     <main>
-      <JobDetails :jobDetails="jobApi"/>
-      <InputForm :getText="getText"/>
-      <button id='preview-toggle' @click="togglePreview = !togglePreview">Show Preview</button>
+      <JobDetails :jobDetails='jobApi'/>
+      <InputForm :getText='getText'/>
+      <button id='preview-toggle' @click='togglePreview = !togglePreview'>Show Preview</button>
       <Preview :text='appText' :class='{hidden : togglePreview}'/>
     </main>
     <Footer />
@@ -73,23 +73,11 @@ main {
   margin: 0 auto;
   padding: 10px;
 }
-/* body {
-  margin: 0 30px 0 30px;
-  padding: 0;
-  font-family: sans-serif;
-  color: #1B997A;
-  display: grid;
-  grid-template-rows: 15% 75% 10%;
-} */
 small {
   color: black;
   font-size: .5rem;
   margin-left: 10px;
 }
-/* a {
-  color: #C261CC;
-  text-decoration: none;
-} */
 .hidden {
   display: none;
 }

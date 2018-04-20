@@ -1,6 +1,6 @@
 <template>
   <div id='page-header'>
-    <img src="../../public/g-dino.png">
+    <img src='../../public/g-dino.png'>
   </div>
 </template>
 

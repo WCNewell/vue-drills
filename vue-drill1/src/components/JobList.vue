@@ -1,8 +1,8 @@
 <template>
   <div>
     <h2>Job Listings</h2>
-    <ul v-for="job in jobs" :key="job.title">
-      <li class="job-cards">
+    <ul v-for='job in jobs' :key='job.title'>
+      <li class='job-cards'>
         <h4>{{ job.title }}</h4>
         <small>{{ job.pay }}</small>
         <p>{{ job.description }}</p>
